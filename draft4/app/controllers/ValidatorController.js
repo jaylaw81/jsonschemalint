@@ -2,6 +2,7 @@
 
 var app = angular.module('app', false);
 
+
 app.controller('validatorController', function ($scope, $http, $window) {
 
   var validator = $window['isMyJsonValid'];
@@ -14,6 +15,8 @@ app.controller('validatorController', function ($scope, $http, $window) {
     self.metaSchema = data;
   });
 
+  $scope.schemas = ['footer', 'link', 'linklist', 'button', 'image'];
+
   this.reset = function() {
     self.document = "";
     self.schema = "";
@@ -21,12 +24,12 @@ app.controller('validatorController', function ($scope, $http, $window) {
 
   this.sample = function(ref) {
     console.debug('sample', ref);
-
-    $http.get('samples/' + ref + '.document.json').success(function(data) {
-      self.document = JSON.stringify(data, null, '  ');
-    });
-    $http.get('samples/' + ref + '.schema.json').success(function(data) {
+    $http.get('samples/schemas/' + ref + '.json').success(function(data) {
       self.schema = JSON.stringify(data, null, '  ');
+    });
+
+    $http.get('samples/examples/' + ref + '.json').success(function(data) {
+      self.document = JSON.stringify(data, null, '  ');
     });
 
   };
@@ -35,7 +38,6 @@ app.controller('validatorController', function ($scope, $http, $window) {
     try {
       return JSON.parse(thing);
     } catch (e) {
-      console.log('not json, trying yaml');
       return YAML.parse(thing);
     }
   };
@@ -146,4 +148,10 @@ app.controller('validatorController', function ($scope, $http, $window) {
     self.validateDocument();
   });
 
+});
+
+app.filter('capitalize', function() {
+    return function(input) {
+      return (!!input) ? input.charAt(0).toUpperCase() + input.substr(1).toLowerCase() : '';
+    }
 });

@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "http://json-schema.org/image#",
+    "type": "object",
+    "properties": {
+      "xs": {
+        "type": "string"
+      },
+      "sm": {
+        "type": "string"
+      },
+      "md": {
+        "type": "string"
+      },
+      "lg": {
+        "type": "string"
+      },
+      "alt": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  }

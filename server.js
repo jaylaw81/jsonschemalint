@@ -1,10 +1,11 @@
 var express = require('express');
 var compression = require('compression');
-
+var parser = require("json-schema-parser");
 var app = express();
 
 // Logging
 var winston = require('winston');
+
 winston.remove(winston.transports.Console);
 winston.add(winston.transports.Console, {
     colorize: true

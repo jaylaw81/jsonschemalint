@@ -1,0 +1,91 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "Product",
+	"description": "A product from Acme's catalog",
+	"type": "object",
+	"id": "http://json-schema.org/button#",
+	"properties": {
+		"theme": {
+			"type": "string",
+			"oneOf": [{
+				"properties": {
+					"light": {
+						"type": "string"
+					},
+					"dark": {
+						"type": "string"
+					}
+				}
+			}]
+		},
+		"priority": {
+			"type": "string",
+			"oneOf": [{
+				"properties": {
+					"primary": {
+						"type": "string"
+					},
+					"secondary": {
+						"type": "string"
+					},
+					"tertiary": {
+						"type": "string"
+					}
+				}
+			}]
+		},
+		"width": {
+			"type": "string",
+			"oneOf": [{
+				"properties": {
+					"block": {
+						"type": "string"
+					},
+					"variable": {
+						"type": "string"
+					}
+				}
+			}]
+		},
+		"target": {
+			"type": "string",
+			"oneOf": [{
+				"properties": {
+					"_self": {
+						"type": "string"
+					},
+					"_blank": {
+						"type": "string"
+					},
+					"modal": {
+						"type": "string"
+					}
+				}
+			}]
+		},
+		"href": {
+			"type": "string"
+		},
+		"onClick": {
+			"type": "string"
+		},
+		"icon": {
+			"type": "string"
+		},
+		"dynamicNumber": {
+			"type": "integer"
+		},
+		"disabled": {
+			"type": "boolean"
+		},
+		"plain": {
+			"type": "boolean"
+		},
+		"children": {
+			"type": "string"
+		}
+	},
+	"required": [
+		"children"
+	]
+}

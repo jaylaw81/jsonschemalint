@@ -1,0 +1,53 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "http://json-schema.org/sdp/linklist#",
+    "type": "object",
+    "properties": {
+      "internalLinks": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "standardLinks": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "default": "accordion_false"
+                },
+                "heading": {
+                  "type": "string",
+                  "default": "Legal"
+                },
+                "link": {
+                  "id": "http://jsonschema.net/internalLinks/items/standardLinks/link",
+                  "type": "array",
+                  "items": {
+                    "id": "http://jsonschema.net/internalLinks/items/standardLinks/link/items/1",
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "id": "http://jsonschema.net/internalLinks/items/standardLinks/link/text",
+                        "type": "string",
+                        "default": "Copyright"
+                      },
+                      "url": {
+                        "id": "http://jsonschema.net/internalLinks/items/standardLinks/link/url",
+                        "type": "string",
+                        "default": "#"
+                      },
+                      "target": {
+                        "id": "http://jsonschema.net/internalLinks/items/standardLinks/link/target",
+                        "type": "string",
+                        "default": "_self"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }

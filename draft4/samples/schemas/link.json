@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://json-schema.org/link#",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "target": {
+			"type": "string",
+			"oneOf": [{
+				"properties": {
+					"_self": {
+						"type": "string"
+					},
+					"_blank": {
+						"type": "string"
+					},
+					"modal": {
+						"type": "string"
+					}
+				}
+			}]
+		}
+  },
+  "required": [
+    "text"
+  ]
+}

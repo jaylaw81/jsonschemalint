@@ -1,0 +1,58 @@
+{
+  "internalLinks":[
+    {
+      "standardLinks":{
+        "type":"plain",
+        "heading":"Legal",
+        "link":[
+          {
+             "text":"Privacy Policy",
+             "url":"#",
+             "target":"_self"
+          },
+          {
+             "text":"Copyright",
+             "url":"#",
+             "target":"_self"
+          }
+        ]
+      }
+    },
+    {
+      "standardLinks":{
+        "type":"accordion_true",
+        "heading":"Legal",
+        "link":[
+          {
+            "text":"Privacy Policy",
+            "url":"#",
+            "target":"_self"
+          },
+          {
+            "text":"Copyright",
+            "url":"#",
+            "target":"_self"
+          }
+        ]
+      }
+     },
+     {
+      "standardLinks":{
+        "type":"accordion_false",
+        "heading":"Legal",
+        "link":[
+          {
+            "text":"Privacy Policy",
+            "url":"#",
+            "target":"_self"
+          },
+          {
+            "text":"Copyright",
+            "url":"#",
+            "target":"_self"
+          }
+        ]
+      }
+    }
+  ]
+}

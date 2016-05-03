@@ -1,0 +1,171 @@
+{
+  "searchBar": {
+    "label": "Search",
+    "text": "Enter Search Terms",
+    "icon": "location"
+  },
+  "topLinks": [{
+    "text": "Contact Us",
+    "url": "#",
+    "target": "_self"
+  }, {
+    "text": "Site Map",
+    "url": "#",
+    "target": "_self"
+  }, {
+    "text": "Careers",
+    "url": "#",
+    "target": "_self"
+  }, {
+    "text": "Recall Info",
+    "url": "#",
+    "target": "_self"
+  }],
+  "fcaLinksRail": [{
+    "image": "//placehold.it/100x50",
+    "alt": "",
+    "target": "_self",
+    "url": "#"
+  }, {
+    "image": "//placehold.it/100x50",
+    "alt": "",
+    "target": "_self",
+    "url": "#"
+  }, {
+    "image": "//placehold.it/100x50",
+    "alt": "",
+    "target": "_self",
+    "url": "#"
+  }],
+  "brandLinksRail": [{
+    "linkType": "Text",
+    "image": "",
+    "alt": "",
+    "text": "Fiat",
+    "url": "#",
+    "target": "_self"
+  }, {
+    "linkType": "Text",
+    "image": "",
+    "alt": "",
+    "text": "Dodge",
+    "url": "#",
+    "target": "_self"
+  }, {
+    "linkType": "Text",
+    "image": "",
+    "alt": "",
+    "text": "Alfa Romeo",
+    "url": "#",
+    "target": "_self"
+  }, {
+    "linkType": "Text",
+    "image": "",
+    "alt": "",
+    "text": "Chrysler",
+    "url": "#",
+    "target": "_self"
+  }, {
+    "linkType": "Text",
+    "image": "",
+    "alt": "",
+    "text": "Ram",
+    "url": "#",
+    "target": "_self"
+  }],
+  "footerLinksRail": {
+    "columns": "5",
+    "externalLinks": [{
+      "layout": "horizontal",
+      "heading": "Social",
+      "links": [{
+        "type": "Icon",
+        "image": "",
+        "alt": "",
+        "icon": "plus",
+        "url": "#",
+        "target": "_self"
+      }, {
+        "type": "Icon",
+        "image": "",
+        "alt": "",
+        "icon": "plus",
+        "url": "#",
+        "target": "_self"
+      }]
+    }, {
+      "layout": "horizontal",
+      "heading": "Privacy",
+      "links": [{
+        "type": "Icon",
+        "image": "",
+        "alt": "",
+        "icon": "location",
+        "url": "#",
+        "target": "_self"
+      }, {
+        "type": "Icon",
+        "image": "",
+        "alt": "",
+        "icon": "calculator",
+        "url": "#",
+        "target": "_self"
+      }, {
+        "type": "Icon",
+        "image": "",
+        "alt": "",
+        "icon": "chevron-right",
+        "url": "#",
+        "target": "_self"
+      }]
+    }],
+    "internalLinks": [{
+      "standardLinks": {
+        "type": "expanded_accordion",
+        "heading": "Legal",
+        "link": [{
+          "text": "Privacy Policy",
+          "url": "#",
+          "target": "_self"
+        }, {
+          "text": "Copyright",
+          "url": "#",
+          "target": "_self"
+        }]
+      }
+    }, {
+      "standardLinks": {
+        "type": "expanded_accordion",
+        "heading": "Legal",
+        "link": [{
+          "text": "Privacy Policy",
+          "url": "#",
+          "target": "_self"
+        }, {
+          "text": "Copyright",
+          "url": "#",
+          "target": "_self"
+        }]
+      }
+    }, {
+      "standardLinks": {
+        "type": "expanded_accordion",
+        "heading": "Pavan Testing",
+        "link": [{
+          "text": "Pavan1",
+          "url": "#",
+          "target": "_self"
+        }, {
+          "text": "Pava2",
+          "url": "#",
+          "target": "_self"
+        }, {
+          "text": "Pavan3",
+          "url": "#",
+          "target": "_self"
+        }]
+      }
+    }]
+  },
+  "copyright": "&copy;2016 FCA US LLC. All Rights Reserved.<br>Chrysler, Dodge, Jeep, Ram, Mopar and SRT are registered trademarks of FCA US LLC.<br>ALFA ROMEO and FIAT are registered trademarks of FCA Group Marketing S.p.A., used with permission.<\/p> <p>*MSRP excludes destination, taxes, title and registration fees. Starting at price refers to the base model, optional equipment not included. A more expensive model may be shown. Pricing and offers may change at any time without notification. To get full pricing details, see y"
+}

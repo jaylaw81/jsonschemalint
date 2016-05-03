@@ -1,0 +1,13 @@
+{
+  "children": "Compare Vehicles",
+  "theme": "light",
+  "priority": "primary",
+  "width": "block",
+  "target": "_blank",
+  "href": "http://url",
+  "onClick": "",
+  "icon": "gcss-icon",
+  "dynamicNumber": 100,
+  "disabled": false,
+  "plain": false
+}
